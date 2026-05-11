@@ -1,10 +1,13 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.python-version
 .venv/
 venv/
 env/
 
+<<<<<<< HEAD
 # Local datasets and outputs
 data/
 dataset/
@@ -18,16 +21,50 @@ outputs/*
 *.pt
 *.pth
 *.onnx
+=======
+# Local caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+>>>>>>> origin/main
 
-# Large files
+# Raw data, generated datasets, and visual outputs
+data/
+dataset/images/
+dataset/labels/
+dataset/metadata.csv
+outputs/
+
+# External cloned repositories and downloaded archives
+external/
 *.zip
 *.rar
 *.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Training outputs and model artifacts
+runs/
+models/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Media dumps
 *.mp4
 *.avi
+*.mov
 
 # IDE / OS
 .vscode/
 .idea/
 .DS_Store
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> origin/main
