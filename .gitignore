@@ -1,0 +1,29 @@
+@"
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Data and model outputs
+data/
+runs/
+models/
+*.pt
+*.pth
+*.onnx
+
+# Large files
+*.zip
+*.rar
+*.7z
+*.mp4
+*.avi
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
