@@ -1,9 +1,7 @@
-@"
-ultralytics
+pillow
 opencv-python
 numpy
 pandas
 matplotlib
-Pillow
+tqdm
 pyyaml
-"@ | Set-Content requirements.txt
