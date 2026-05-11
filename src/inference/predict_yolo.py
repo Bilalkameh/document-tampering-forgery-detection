@@ -31,14 +31,14 @@ def main():
     model = YOLO(args.weights)
 
     model.predict(
-    source=args.source,
-    conf=args.conf,
-    device=args.device,
-    save=True,
-    save_txt=True,
-    save_conf=True,
-    project="outputs/predictions",
-    name=args.name,
+        source=args.source,
+        conf=args.conf,
+        device=args.device,
+        save=True,
+        save_txt=True,
+        save_conf=True,
+        project="outputs/predictions",
+        name=args.name,
     )
 
     print("Prediction finished.")
