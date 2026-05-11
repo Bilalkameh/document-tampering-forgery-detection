@@ -1,4 +1,3 @@
-@"
 # Python
 __pycache__/
 *.pyc
@@ -6,10 +5,16 @@ __pycache__/
 venv/
 env/
 
-# Data and model outputs
+# Local datasets and outputs
 data/
+dataset/
 runs/
-models/
+
+# Keep outputs folder but ignore generated contents
+outputs/*
+!outputs/.gitkeep
+
+# Model weights
 *.pt
 *.pth
 *.onnx
@@ -26,4 +31,3 @@ models/
 .idea/
 .DS_Store
 Thumbs.db
-"@ | Set-Content .gitignore
