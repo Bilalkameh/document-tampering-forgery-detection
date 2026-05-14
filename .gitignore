@@ -7,34 +7,17 @@ __pycache__/
 venv/
 env/
 
-<<<<<<< HEAD
-# Local datasets and outputs
-data/
-dataset/
-runs/
-
-# Keep outputs folder but ignore generated contents
-outputs/*
-!outputs/.gitkeep
-
-# Model weights
-*.pt
-*.pth
-*.onnx
-=======
 # Local caches
 .cache/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
->>>>>>> origin/main
 
-# Raw data, generated datasets, and visual outputs
+# Raw data and generated datasets
 data/
 dataset/images/
 dataset/labels/
 dataset/metadata.csv
-outputs/
 
 # External cloned repositories and downloaded archives
 external/
@@ -44,6 +27,10 @@ external/
 *.tar
 *.tar.gz
 *.tgz
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
 
 # Training outputs and model artifacts
 runs/
@@ -63,8 +50,4 @@ weights/
 .vscode/
 .idea/
 .DS_Store
-<<<<<<< HEAD
 Thumbs.db
-=======
-Thumbs.db
->>>>>>> origin/main
