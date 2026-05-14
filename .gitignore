@@ -37,9 +37,13 @@ runs/
 models/
 weights/
 *.pt
+!yolov8n.pt
 *.pth
 *.onnx
 *.engine
+
+# Demo output images
+demo/
 
 # Media dumps
 *.mp4
