@@ -51,3 +51,7 @@ weights/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local demo and presentation artifacts
+/demo/
+/Presentation Pictures/
